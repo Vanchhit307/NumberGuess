@@ -1,21 +1,26 @@
-# Digital Clock - Java Swing Application
+# Number Guessing Game
 
 ## Description
-A simple digital clock built using Java Swing that displays real-time time with updating seconds.
+A simple number guessing game built using Java Swing. Guess the secret number between 1-100 with hints and attempt tracking.
+
+## How to Play
+1. Computer picks a random number between 1-100
+2. You guess the number
+3. Get hints: "TOO HIGH" or "TOO LOW"
+4. You have 10 attempts to guess correctly
+5. Click "New Game" to play again
 
 ## Features
-- Real-time clock display
-- Updates every second using Timer
-- 24-hour format (HH:MM:SS)
-- Clean and simple GUI
-- JLabel with custom font and colors
+- 🎲 Random number generation (1-100)
+- 📊 Attempts counter (max 10)
+- 📈 Too high / too low hints
+- 🔄 New game button
+- ⌨️ Enter key support
+- ✅ Input validation
+- 💬 Popup messages for win/loss
 
-## Screenshots
-
-
-
-<img width="475" height="229" alt="Screenshot 2026-04-01 023302" src="https://github.com/user-attachments/assets/e56e546a-58a8-4988-975b-169aed645dda" />
+## How to Run
 
 ### Compile:
 ```bash
-javac src/collegeassignment/Digitalclock.java
+javac NumberGuess.java
